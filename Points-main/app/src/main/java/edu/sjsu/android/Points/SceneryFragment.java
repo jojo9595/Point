@@ -68,7 +68,7 @@ public class SceneryFragment extends Fragment {
             }
             ArrayList<PlaceholderContent> placeholderContents = new ArrayList<>();
 
-            placeholderContents.add(new PlaceholderContent(".Stanford University",
+            placeholderContents.add(new PlaceholderContent("Stanford University",
                     "Address:450 Serra Mall, Stanford, CA 94305",
                     "Description: Stanford University, officially Leland Stanford Junior University, is a private research university located in the census-designated place of Stanford, California, near the city of Palo Alto. The campus occupies 8,180 acres, among the largest in the United States, and enrolls over 17,000 students.",
                     R.mipmap.stanford_university));
@@ -88,7 +88,7 @@ public class SceneryFragment extends Fragment {
                     "Address:Golden Gate Bridge, San Francisco, CA",
                     "Description:The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean.",
                     R.mipmap.golden_gate_bridge));
-            placeholderContents.add(new PlaceholderContent(".San jose state university",
+            placeholderContents.add(new PlaceholderContent("San jose state university",
                     "Address:1 Washington Sq, San Jose, CA 95192",
                     "Description: San José State University is a public university in San Jose, California. SJSU is the oldest public university on the West Coast and the founding campus of the California State University system. Located in downtown San Jose, the SJSU main campus is situated on 154 acres, or roughly 19 square blocks.",
                     R.mipmap.san_jose_university));
