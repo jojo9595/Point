@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/map">
+    <fragment
+        android:id="@+id/map"
+        android:name="edu.sjsu.android.Points.MapsFragment"
+        android:label="MapsFragment"
+        tools:layout="@layout/fragment_maps">
+    </fragment>
+    <fragment
+        android:id="@+id/list"
+        android:name="edu.sjsu.android.Points.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/scenery"
+        android:name="edu.sjsu.android.Points.SceneryFragment"
+        android:label="Scenery"
+        tools:layout="@layout/fragment_scenery" />
+</navigation>
